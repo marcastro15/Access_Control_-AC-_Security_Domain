@@ -11,6 +11,7 @@ Knowledge:
 - Windows Admin
 - SSH 
 - Public/private key SSH setup - see https://www.ssh.com/academy/ssh/keygen for setup instruction
+  ssh-copy-id -i ~/.ssh/id_rsa.pub username(s)@ip(s)
 
 Requirements:
 dfasdf
