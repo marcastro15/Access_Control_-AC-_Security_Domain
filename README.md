@@ -10,7 +10,7 @@ Knowledge:
 - Linux Admin
 - Windows Admin
 - SSH 
-- Public/private key SSH setup
+- Public/private key SSH setup - see https://www.ssh.com/academy/ssh/keygen for setup instruction
 
 Requirements:
 dfasdf
