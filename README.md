@@ -7,6 +7,7 @@ Description:
 dfadf
 
 Required Knowledge:
+-------------------
 - Linux Admin (Ubuntu)- basic network administration and commands
 - Windows Admin (Windows 10) - basic network administration and commands
 - SSH instruction: install SSH Server on each hosts you're interested in
@@ -16,6 +17,8 @@ Required Knowledge:
     + https://www.ssh.com/academy/ssh/keygen for setup instruction 
     + How to copy keys? ssh-copy-id -i ~/.ssh/id_rsa.pub username(s)@ip(s)
 - MySQL Server and SQL
+    + How to install MySQL: https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04
+   
 
 Requirements:
 dfasdf
