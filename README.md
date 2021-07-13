@@ -13,8 +13,8 @@ Required Knowledge:
     + https://www.cyberciti.biz/faq/ubuntu-linux-install-openssh-server/
 - Python3 Syntax
 - Public/private key SSH setup Instruction: 
-    +https://www.ssh.com/academy/ssh/keygen for setup instruction
-     ssh-copy-id -i ~/.ssh/id_rsa.pub username(s)@ip(s)
+    + https://www.ssh.com/academy/ssh/keygen for setup instruction 
+    + How to copy keys? ssh-copy-id -i ~/.ssh/id_rsa.pub username(s)@ip(s)
 
 Requirements:
 dfasdf
