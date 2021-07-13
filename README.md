@@ -15,6 +15,7 @@ Required Knowledge:
 - Public/private key SSH setup Instruction: 
     + https://www.ssh.com/academy/ssh/keygen for setup instruction 
     + How to copy keys? ssh-copy-id -i ~/.ssh/id_rsa.pub username(s)@ip(s)
+- MySQL Server and SQL
 
 Requirements:
 dfasdf
