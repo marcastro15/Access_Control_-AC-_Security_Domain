@@ -21,7 +21,7 @@ Required Knowledge/Pre-requisites/Installation:
         - https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04
         - https://www.mysqltutorial.org/mysql-create-database/
     + Test your MySQL to make sure it's running: systemctl status mysql.service
-    + Create the tables:
+        - CREATE DATABASE AND TABLES:
           1. sudo mysql
           2. create user 'username' identified by 'password'
           3. GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT, REFERENCES, RELOAD on *.* TO 'username' WITH GRANT OPTION;
