@@ -31,9 +31,15 @@ Required Knowledge/Pre-requisites/Installation:
           7. TABLE: create table HR_EMPLOYEES(username varchar(100), primary key(username));
           8. INSERT AUTHORIZED USER DATA: insert into HR_EMPLOYEES(username) values ('mar');
 
+ INSTALL MODULES
+ ---------------
+ - PIP: apt install python3-pip
+ - UPDATE S/W Source: apt-get update 
  
-Running:
-dfasdf
+RUNNING
+-------
+python3 AC.py
+
 
 Future Work:
 dfasdf
