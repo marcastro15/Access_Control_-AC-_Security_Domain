@@ -6,7 +6,7 @@ dfadf
 Description:
 dfadf
 
-Required Knowledge:
+Required Knowledge/Pre-requisites/Installation:
 -------------------
 - Linux Admin (Ubuntu)- basic network administration and commands
 - Windows Admin (Windows 10) - basic network administration and commands
@@ -18,15 +18,18 @@ Required Knowledge:
     + How to copy keys? ssh-copy-id -i ~/.ssh/id_rsa.pub username(s)@ip(s)
 - MySQL Server and SQL
     + How to install MySQL: https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04
+    + Test your MySQL to make sure it's running: systemctl status mysql.service
     + Create the tables:
           1. sudo mysql
           2. create user 'username' identified by 'password'
           3. GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT, REFERENCES, RELOAD on *.* TO 'username' WITH GRANT OPTION;
+          4. mysql -u 'username' -p 'password'
+          5. DATABASE: create database HR_DB;
+          6. SPECIFY DATABASE TO USE: use HR_DB;
+          7. TABLE: create table HR_EMPLOYEES(username varchar(100), primary key(username));
+          8. INSERT AUTHORIZED USER DATA: insert into HR_EMPLOYEES(username) values ('mar');
 
-
-Requirements:
-dfasdf
-
+ 
 Running:
 dfasdf
 
