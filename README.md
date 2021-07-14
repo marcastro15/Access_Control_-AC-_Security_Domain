@@ -1,10 +1,9 @@
 # Access_Control_-AC-_Security_Domain
 
 Purpose:
-dfadf
+--------
+This is an Access Control (AC) security tool that will enable to determine the authorized personnel. All authorized personnel are stored and managed by Human Resources (HR). All employees must be entered to the HR Systems after hiring process. The HR system database list all the employees who will specific access to an specific systems. That means, it's the only authorized individual. The sole authority is the HR System, not the Linux/Windows or any OS Administrators. This will prevent rogue employees to make entries into the systems without authorization from HR. This is relevant in the real world because Security Operation Center (SOC) should constantly watch and oversee all the activities of the employees regardless of their roles in the company. 
 
-Description:
-dfadf
 
 Required Knowledge/Pre-requisites/Installation:
 -------------------
@@ -41,12 +40,20 @@ Required Knowledge/Pre-requisites/Installation:
     + MYSQL CONNECTOR: pip3 install mysql-connector-python
 
 
- 
+DESIGN:
+------
+ This is a multi-tier (2) application that requires database and an application.
+ DATABASE <-------------->PYTHON APPLICATION
+
 RUNNING
 -------
 python3 AC.py
 
 
 Future Work:
-dfasdf
+-----------
+1. This program is designed to compare authorized users on Linux systems only. It would be extended to Windows and other operating systems.
+2. The results will be sent to Security Operation Center (SOC)
+3. Create GUI web interface to display data. 
+4. Redesign the DB to identify which employees are supposed to have access to specific hosts.
 
