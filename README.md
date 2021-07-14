@@ -34,9 +34,13 @@ Required Knowledge/Pre-requisites/Installation:
  INSTALL MODULES
  ---------------
  Note that pip3 means install it in python version 3
- - PIP: apt install python3-pip
  - UPDATE S/W Source: apt-get update 
- - MYSQL CONNECTOR: pip3 install mysql-connector-python
+- PIP: 
+    + PIP for python3: apt install python3-pip
+    + COLOR: pip install string-color
+    + MYSQL CONNECTOR: pip3 install mysql-connector-python
+
+
  
 RUNNING
 -------
