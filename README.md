@@ -17,7 +17,9 @@ Required Knowledge/Pre-requisites/Installation:
     + https://www.ssh.com/academy/ssh/keygen for setup instruction 
     + How to copy keys? ssh-copy-id -i ~/.ssh/id_rsa.pub username(s)@ip(s)
 - MySQL Server and SQL
-    + How to install MySQL: https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04
+    + How to install MySQL Tutorial: 
+        - https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04
+        - https://www.mysqltutorial.org/mysql-create-database/
     + Test your MySQL to make sure it's running: systemctl status mysql.service
     + Create the tables:
           1. sudo mysql
